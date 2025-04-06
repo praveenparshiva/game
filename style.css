@@ -67,7 +67,40 @@
     font-size: 1rem;
     white-space: pre-line;
   }
-  .sign{
+ 
+/* lightning effect */
+  .lightning-flash {
     text-align: right;
     margin-right: 1rem;
+    font-size: 2rem;
+    color: black;
+    text-shadow: 0 0 20px black;
+    animation: lightning 2s infinite;
+  }
+
+  @keyframes lightning {
+    0%, 100% {
+      opacity: 1;
+    }
+    2%, 3% {
+      opacity: 0;
+    }
+    4%, 5% {
+      opacity: 1;
+    }
+    6%, 15% {
+      opacity: 0;
+    }
+    16%, 18% {
+      opacity: 1;
+    }
+    19%, 30% {
+      opacity: 0;
+    }
+    31%, 70% {
+      opacity: 1;
+    }
+    71%, 100% {
+      opacity: 0;
+    }
   }
