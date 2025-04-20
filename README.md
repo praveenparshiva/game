@@ -1,3 +1,4 @@
+the website https://praveenparshiva.github.io/game/
 🔧 Core Functionality
 Rock-Paper-Scissors Gameplay: Allows users to play the classic Rock-Paper-Scissors game against the computer by selecting one of the three options.
 
